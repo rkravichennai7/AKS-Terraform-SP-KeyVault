@@ -1,5 +1,6 @@
 #!/bin/bash
 # az ad sp create-for-rbac --name burger --role contributor --scopes /subscriptions/5e4fafbb-ef69-4e17-8835-68030d81f758 --sdk-auth 
+# az role assignment create --assignee 973f9df4-b403-4619-a9f8-fa69cf609dbd --role "Storage Blob Data Contributor" --scope /subscriptions/5e4fafbb-ef69-4e17-8835-68030d81f758/resourceGroups/tfstate-rg/providers/Microsoft.Storage/storageAccounts/tfstateburger07102025
 RESOURCE_GROUP_NAME=backendrg
 STORAGE_ACCOUNT_NAME=backendtf101
 CONTAINER_NAME=tfstate
