@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# az ad sp create-for-rbac --name burger --role contributor --scopes /subscriptions/5e4fafbb-ef69-4e17-8835-68030d81f758 --sdk-auth 
 RESOURCE_GROUP_NAME=backendrg
 STORAGE_ACCOUNT_NAME=backendtf101
 CONTAINER_NAME=tfstate
